@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shajara</title>
+  <title>Sign Up - Shajara</title>
 
   <link rel="stylesheet" href="index.css">
 </head>
@@ -12,7 +12,7 @@
   <nav>
     <div class="wrapper">
       <a href="#">Shajara</a>
-      <a href="signup.html">Get Started</a>
+      <a href="#">Get Started</a>
     </div>
   </nav>
 
@@ -24,6 +24,41 @@
         <p>[screenshot of app dashboard goes here]</p>
       </div>
     </header>
+
+    <section class="overlay">
+      <form action="" class="modal">
+        <h2>Sign Up</h2>
+        <p>Please fill in the fields below to create a Shajara account.</p>
+
+        <div class="group">
+          <label for="firstName">First Name:</label><br>
+          <input type="text" id="firstName">
+        </div>
+
+        <div class="group">
+          <label for="profilePicture">Profile Picture: (optional)</label><br>
+          <input type="file" id="profilePicture">
+        </div>
+
+        <div class="group">
+          <label for="username">Username:</label><br>
+          <input type="text" id="username">
+        </div>
+
+        <div class="group">
+          <label for="password">Password:</label><br>
+          <input type="password" id="password">
+        </div>
+
+        <div class="group">
+          <button type="submit">Create Account</button>
+          <button type="button">Cancel</button>
+        </div>
+
+        <p>Already have an account? Let's take you to <a href="signin.html">sign in</a>!</p>
+        
+      </form>
+    </section>
 
     <section class="highlights">
       <article class="lead">
