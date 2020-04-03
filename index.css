@@ -22,10 +22,11 @@ nav {
   left: 0;
   right: 0;
   padding: 1rem;
+  color: #FFF;
 }
 
 nav a {
-  color: #FFF;
+  color: inherit;
 }
 
 nav .wrapper {
@@ -47,7 +48,7 @@ nav .wrapper {
 }
 
 .highlights {
-  background: #888;
+  background: #AAA;
   padding: 2rem;
 }
 

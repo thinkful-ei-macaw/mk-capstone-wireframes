@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weirdest Day Ever - Shajara</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  
+  <nav>
+    <div class="wrapper">
+      <a href="dashboard.html">&lt; Back to all entries</a>
+      <!-- <a href="#">Search</a> -->
+    </div>
+  </nav>
+
+  <main>
+
+    <header>
+      <div class="wrapper">
+        <h1><input type="text" placeholder="Entry Title"></h1>
+        <p>Jan 31, 2020 - <select name="mood" id="mood">
+          <option value="5">😃</option>
+          <option value="4">🙂</option>
+          <option value="3">😐</option>
+          <option value="2">😕</option>
+          <option value="1">😖</option>
+        </select></p>
+      </div>
+    </header>
+
+    <section class="entry">
+      <div class="wrapper">
+        <form action="">
+          <p class="photos">
+            <label for="photos">Photos: </label>
+            <input type="file" id="photos">
+          </p>
+
+          <label for="content">Entry content: </label><br>
+          <textarea name="content" id="content" cols="30" rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus perspiciatis ipsa optio culpa maxime tempore iure. Mollitia dicta et exercitationem numquam. Officiis dolore amet aperiam ad delectus quibusdam nihil enim similique voluptas, cum, facere esse molestias obcaecati ipsum hic, numquam ea eligendi atque voluptatum dicta minima nisi! Atque numquam vel incidunt tempore quia cumque molestias praesentium porro ea asperiores tempora magnam dolorum quis sequi, ab modi exercitationem temporibus itaque tenetur? Sapiente, laudantium tempore! Repellat, hic! Vitae at nostrum itaque dolorem repudiandae, rem reprehenderit id quaerat deserunt excepturi sint et, error quae. Iusto id quod hic dolores corrupti inventore, sequi iste quibusdam optio quasi reprehenderit voluptate aliquam quia deleniti quam eos? In commodi et libero quas earum magnam tempore culpa accusamus.
+          </textarea>
+
+          <div class="group">
+            <button type="submit">Save entry</button>
+            <button type="button">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="tabs">
+      <div class="wrapper">
+        <ul>
+          <li><a href="dashboard.html">Journal</a></li>
+          <li><a href="dashboard-moods.html">Moods</a></li>
+          <li class="active"><a href="#">+</a></li>
+          <li><a href="dashboard-search.html">Search</a></li>
+          <li><a href="dashboard-settings.html">Settings</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+    
+
+</body>
+</html>
